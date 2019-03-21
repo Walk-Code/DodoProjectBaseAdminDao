@@ -49,4 +49,12 @@ public abstract class BaseSystemMenuNode<M extends BaseSystemMenuNode<M>> extend
 		return get("create_time");
 	}
 
+	public void setUpdateTime(java.util.Date updateTime) {
+		set("update_time", updateTime);
+	}
+	
+	public java.util.Date getUpdateTime() {
+		return get("update_time");
+	}
+
 }
